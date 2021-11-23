@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .center{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 2%;
+  }
+  
+  html,body{
+      height: 100%;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  header{
+      height: 90px;
+      padding: 20px ;
+  }
+  
+  .logo{
+      width: 90%;
+  }
+  
+  .menu{
+      padding-top: 0%;
+      width: 110%;
+      text-align: right;
+  }
+  
+  .menu a{
+      color:black;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 10px;
+  }
+  
+  section.sobre{
+      height: calc(100% - 200px);
+      position: relative;
+  }
+  
+  .extras{
+      position: absolute;
+      bottom: -650px;
+      right:-450px;
+      width: 1000px;
+      height: 1000px;
+      border-radius: 50%;
+      background-color: #ff496c;
+  }
+  
+  .social-media{
+      position: absolute;
+      right: 510px;
+      top: 200px;
+  }
+  
+  .social-media img{
+      display: block;
+      width:40px;
+      margin: 20px;
+  }
+  
+  .texto-sobre{
+      margin-top: 100px;
+  }
+  
+  .texto-sobre h1{
+      font-size: 70px;
+  }
+  
+  .texto-sobre p{
+      margin: 20px 0;
+      color: black;
+      font-size: 14px;
+      font-weight: bold;
+      max-width: 600px;
+  }
+  
+  .texto-sobre button{
+      border: 0;
+      background-color: #ff496c;
+      color: white;
+      border-radius: 8px;
+      width:100px;
+      height: 30px;
+      cursor: pointer;
+  }
